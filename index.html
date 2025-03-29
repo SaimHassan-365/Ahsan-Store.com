@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahsan Store</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+      function stationary(){
+          windows.open('./stationary.html')
+      }
+
+      
+  </script>
+  <style>
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    .cards{
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Ahsan Store</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h1>Welcome to Ahsan Store</h1>
+    <div class="cards">
+      <a href="mobile.html">
+      <div style="margin-left: 1.5rem; width: 250px;" class="card" onclick="window.location.href='#mobiles'">
+        <h2>Click to go on Ahsan Mobiles Shop</h2>
+      </div>
+      </a>
+      <a href="clothes.html">
+      <div style="margin-left: 2rem; width: 250px;" class="card" onclick="window.location.href='#clothes'">
+        <h2>Click to go on Ahsan Clothes Shop</h2>
+      </div>
+      </a>
+      <a href="stationary.html">
+      <div style="margin-left: 2rem; width: 250px;" class="card" href="stationary.html" onclick="window.location.href">
+        <h2>Click to go on Ahsan Stationary Shop</h2>
+      </div>
+      </a>
+    </div> 
+
+    <!-- Mobiles Shop -->
+  
+  <!-- Footer -->
+  <footer style="margin-top: 2rem; position: fixed; width: 97%;" class="footer">
+    <p>&copy; 2023 Ahsan Store. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

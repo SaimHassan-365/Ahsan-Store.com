@@ -1,0 +1,66 @@
+/* Help Page Styles */
+.help-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .help-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .help-content .tagline {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .faq-section, .troubleshooting-section, .contact-support {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .faq-section h2, .troubleshooting-section h2, .contact-support h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .faq-item, .tip-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3, .tip-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .faq-item p, .tip-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .contact-support p {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .contact-support a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .contact-support a:hover {
+    color: #fff
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .faq-section, .troubleshooting-section, .contact-support {
+      padding: 0 20px;
+    }
+  }
